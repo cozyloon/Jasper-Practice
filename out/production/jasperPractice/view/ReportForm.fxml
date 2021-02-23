@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" prefHeight="481.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ReportFormController">
+   <children>
+      <Button layoutX="200.0" layoutY="110.0" mnemonicParsing="false" onAction="#btnReportOnAction" prefHeight="31.0" prefWidth="201.0" text="Hello Report" />
+      <Label alignment="CENTER" layoutX="233.0" layoutY="14.0" prefHeight="21.0" prefWidth="134.0" text="Jasper ">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <Button layoutX="200.0" layoutY="169.0" mnemonicParsing="false" onAction="#btnBeanOnAction" prefHeight="31.0" prefWidth="201.0" text="java bean array" />
+      <Button layoutX="196.0" layoutY="229.0" mnemonicParsing="false" onAction="#btndataSourceOnAction" prefHeight="31.0" prefWidth="209.0" text="Bean Collection data source" />
+      <Button layoutX="196.0" layoutY="281.0" mnemonicParsing="false" onAction="#btnAdapterOnAction" prefHeight="31.0" prefWidth="209.0" text=" DBRec_Adapter" />
+      <Button layoutX="196.0" layoutY="325.0" mnemonicParsing="false" onAction="#btnParamsOnAction" prefHeight="31.0" prefWidth="209.0" text="Report with params" />
+      <Button layoutX="196.0" layoutY="377.0" mnemonicParsing="false" onAction="#btnFindOnAction" prefHeight="31.0" prefWidth="209.0" text="Find" />
+   </children>
+</AnchorPane>
